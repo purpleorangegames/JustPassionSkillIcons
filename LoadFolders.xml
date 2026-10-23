@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
-  <v1.7>
-    <li>Common</li>
-    <li>1.7</li>
-    <li IfModActive="vanillaexpanded.skills">VSE</li>
-  </v1.7>
   <!-- 1.4 to 1.6 use the old dll -->
-  <v1.6>
+  <v1.4>
     <li>Common</li>
     <li>Legacy</li>
-    <li IfModActive="vanillaexpanded.skills">VSE</li>
-  </v1.6>
+  </v1.4>
   <v1.5>
     <li>Common</li>
     <li>Legacy</li>
     <li IfModActive="vanillaexpanded.skills">VSE</li>
   </v1.5>
-  <v1.4>
+  <v1.6>
     <li>Common</li>
     <li>Legacy</li>
-  </v1.4>
+    <li IfModActive="vanillaexpanded.skills">VSE</li>
+  </v1.6>
+  <v1.7>
+    <li>Common</li>
+    <li>1.7</li>
+    <li IfModActive="vanillaexpanded.skills">VSE</li>
+  </v1.7>
 </loadFolders>
