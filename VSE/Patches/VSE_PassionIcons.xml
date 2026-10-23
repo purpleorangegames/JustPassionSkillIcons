@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- only loaded when Vanilla Skills Expanded is active, see LoadFolders.xml -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="Minor"]/iconPath</xpath>
+    <value><iconPath>UI/Icons/PassionMinor</iconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="Major"]/iconPath</xpath>
+    <value><iconPath>UI/Icons/PassionMajor</iconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="VSE_Apathy"]/iconPath</xpath>
+    <value><iconPath>JustPassionSkillIcons/PassionApathy</iconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="VSE_Natural"]/iconPath</xpath>
+    <value><iconPath>JustPassionSkillIcons/PassionNatural</iconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="VSE_Natural"]/workBoxIconPath</xpath>
+    <value><workBoxIconPath>JustPassionSkillIcons/PassionNaturalGray</workBoxIconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="VSE_Critical"]/iconPath</xpath>
+    <value><iconPath>JustPassionSkillIcons/PassionCritical</iconPath></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VSE.Passions.PassionDef[defName="VSE_Critical"]/workBoxIconPath</xpath>
+    <value><workBoxIconPath>JustPassionSkillIcons/PassionCriticalGray</workBoxIconPath></value>
+  </Operation>
+</Patch>
